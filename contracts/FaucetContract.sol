@@ -58,3 +58,6 @@ contract Faucet is Owned, Logger, IFaucet {
     }
 
 }
+
+//const instance = await Faucet.deployed();
+// instance.addFunds({from : accounts[0], value:"2000000000000000000"})
